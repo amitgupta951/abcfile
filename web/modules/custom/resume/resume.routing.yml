@@ -1,0 +1,17 @@
+resume.form:
+ path: '/resume/builder'
+ defaults:
+   _form: '\Drupal\resume\Form\ResumeForm'
+   _title: 'Resume form'
+  # _controller: 'Drupal\resume\Controller\ResumeController::createResume'
+ requirements:
+   _permission: 'access content'
+
+resume.resumecreate:
+  path: '/resume-create/{nid}'
+  defaults:
+    _controller: 'Drupal\resume\Controller\ResumeController::createResume'
+    _title: 'Resume Form for Job'
+    nid: 0
+  requirements:
+    _permission: 'access content'

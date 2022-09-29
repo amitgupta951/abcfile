@@ -1,0 +1,5 @@
+name: welcome
+type: module
+description: 'Drupal 9 Welcome Message'
+package: Custom
+core_version_requirement: ^8 || ^9

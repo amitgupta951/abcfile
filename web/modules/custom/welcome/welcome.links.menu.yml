@@ -1,0 +1,9 @@
+welcome.page:
+  title: Welcome page
+  description: Basic Page Hover Link
+  route_name: welcome.page
+  weight: 3
+  menu_name: main
+  options:
+    attributes:
+      target: _blank
